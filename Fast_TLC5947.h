@@ -18,7 +18,6 @@
  *
  *	BSD license (see license)
  */
- */
 
 #ifndef _Fast_TLC5947_H
 #define _Fast_TLC5947_H
