@@ -1,6 +1,23 @@
 /*!
  *  @file Fast_TLC5947.h
- * Inspired by the Adafruit_TLC5947 library
+ *
+ * 	Fast 24-channel PWM/LED driver
+ *
+ * 	This is a faster library for the Adafruit 24-channel PWM/LED driver:
+ * 	http://www.adafruit.com/products/1429
+ *
+ *  These drivers uses SPI to communicate, 3 pins are required to
+ *  interface: Data, Clock and Latch.
+ *
+ * 	Adafruit invests time and resources providing this open source code,
+ *  please support Adafruit and open-source hardware by purchasing products from
+ * 	Adafruit!
+ *
+ *  Written by Limor Fried/Ladyada for Adafruit Industries.
+ *  Modified by Gordy French
+ *
+ *	BSD license (see license)
+ */
  */
 
 #ifndef _Fast_TLC5947_H
